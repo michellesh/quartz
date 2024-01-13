@@ -7,8 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "Rainbow Clock GitHub": "https://github.com/michellesh/rainbow-clock",
     },
   }),
 }
@@ -16,23 +15,26 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.MobileOnly(Component.Explorer({ title: "All pages", folderDefaultState: "open" })),
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.TableOfContents(),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     //Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({ title: "All pages", folderDefaultState: "open" })),
   ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
+  right: [],
+  //right: [
+  //  Component.Graph(),
+  //  Component.DesktopOnly(Component.TableOfContents()),
+  //  Component.Backlinks(),
+  //],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -42,8 +44,8 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    //Component.Darkmode(),
+    Component.Explorer({ title: "All pages", folderDefaultState: "open" }),
   ],
   right: [],
 }
