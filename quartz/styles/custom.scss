@@ -9,6 +9,9 @@
 
     & .sidebar {
       padding: 0 1rem;
+      @media all and (max-width: $fullPageWidth) {
+        padding: 0;
+      }
     }
 
     & .sidebar.left {

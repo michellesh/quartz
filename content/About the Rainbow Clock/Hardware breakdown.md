@@ -1,0 +1,30 @@
+
+![clock_hardware](static/wiring-photo.jpeg)
+
+
+### Materials
+
+- 3D printed hingebox (black) and screen (white)
+- [ESP32](https://amzn.to/44QzE8E)
+- [LED Matrix](https://amzn.to/3DmqTY9)
+- [On/off switch](https://amzn.to/44wojKZ)
+- [Button](https://amzn.to/3NY1wAT)
+- [Data sync micro USB cable](https://amzn.to/3rvTiIy)
+
+
+### Wiring Diagram
+
+<p align="center">
+  <img alt="schematic" src="https://github.com/michellesh/led-grid-box/assets/1425027/def6b8c2-7e93-416e-8a42-7f4642b5c94f"/>
+</p>
+
+| ESP32 | Button | LED Grid                  |
+| ----- | ------ | ------------------------- |
+| Vin   |        | Power (via on/off switch) |
+| GND   |        | GND                       |
+| GND   | pin 1  |                           |
+| D13   |        | Data                      |
+| D15   | pin 2  |                           |
+
+_NOTE_  
+The on/off switch only turns off power to the LEDs, not the whole system. So if you turn the switch off and leave the USB cable plugged in, the ESP32 board will still be powered, and it will still keep accurate time.
