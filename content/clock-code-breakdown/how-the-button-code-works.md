@@ -1,6 +1,5 @@
 ---
 title: How the button code works
-sortPosition: 4
 ---
 
 

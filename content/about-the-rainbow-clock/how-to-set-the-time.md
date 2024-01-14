@@ -1,7 +1,5 @@
 ---
 title: How to set the time
-sortPosition: 1
-slug: how-to-set-the-time
 ---
 
 

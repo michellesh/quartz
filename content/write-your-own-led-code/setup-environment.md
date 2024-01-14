@@ -1,6 +1,5 @@
 ---
 title: Setup environment
-sortPosition: 1
 ---
 
 
@@ -163,5 +162,5 @@ If you see "hello world!" printing every 1 second in your Serial monitor, it's w
 
 Now that you know how to upload code to the Rainbow Clock, you can start writing your more fun LED code!
 
-Go to the next section! [Code simple LED grid patterns](write-your-own-led-code/2-code-simple-led-grid-patterns)
+Go to the next section! [Code simple LED grid patterns](write-your-own-led-code/code-simple-led-grid-patterns)
 

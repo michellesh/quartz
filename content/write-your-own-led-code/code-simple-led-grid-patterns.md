@@ -1,6 +1,5 @@
 ---
 title: Code simple LED grid patterns
-sortPosition: 2
 ---
 
 
@@ -64,7 +63,7 @@ Paste the above code into the Arduino IDE editor where you see the comment `// .
 
 This code sets a single pixel at the (x, y) coordinate (0, 0) to Red. `CRGB::Red` is one of many pre-defined colors in the FastLED library. [See the full list of FastLED predefined colors.](http://fastled.io/docs/struct_c_r_g_b.html)
 
-_NOTE_ If the pixel that turned on is not at the bottom left, you probably need to change the `START_PIXEL` variable towards the top of the file. (See [LED grid layout](about-the-rainbow-clock/3-led-grid-layout) for more details.)
+_NOTE_ If the pixel that turned on is not at the bottom left, you probably need to change the `START_PIXEL` variable towards the top of the file. (See [LED grid layout](about-the-rainbow-clock/led-grid-layout) for more details.)
 ```cpp
 #define START_PIXEL LEDGrid::TOP_LEFT // change to LEDGrid::BOTTOM_LEFT, or vice versa
 ```
@@ -269,6 +268,6 @@ I've compiled a few issues on the [Troubleshooting & FAQ](more/troubleshooting-f
 
 ## How to re-upload the original clock code
 
-If you've uploaded your own code to the Rainbow Clock and you want to go back to its original function as a clock, this page will walk you through how to upload the original clock code: [How to re-upload the original clock code](write-your-own-led-code/3-how-to-re-upload-the-original-clock-code)
+If you've uploaded your own code to the Rainbow Clock and you want to go back to its original function as a clock, this page will walk you through how to upload the original clock code: [How to re-upload the original clock code](write-your-own-led-code/how-to-re-upload-the-original-clock-code)
 
 

@@ -1,6 +1,5 @@
 ---
 title: LED grid layout
-sortPosition: 3
 ---
 
 

@@ -1,6 +1,5 @@
 ---
 title: Hardware breakdown
-sortPosition: 2
 ---
 
 

@@ -6,6 +6,7 @@ import ArticleTitle from "./ArticleTitle"
 import Darkmode from "./Darkmode"
 import Head from "./Head"
 import PageTitle from "./PageTitle"
+import Image from "./Image"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
@@ -28,6 +29,7 @@ export {
   Darkmode,
   Head,
   PageTitle,
+  Image,
   ContentMeta,
   Spacer,
   TableOfContents,

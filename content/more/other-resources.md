@@ -1,6 +1,5 @@
 ---
 title: Other resources
-sortPosition: 1
 ---
 
 

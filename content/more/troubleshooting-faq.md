@@ -1,6 +1,5 @@
 ---
 title: Troubleshooting & FAQ
-sortPosition: 2
 ---
 
 

@@ -1,6 +1,5 @@
 ---
 title: How the clock code works
-sortPosition: 2
 ---
 
 
