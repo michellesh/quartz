@@ -92,6 +92,8 @@ for (int x = 0; x < WIDTH; x++) {
   
 This code loops through every value of `x` from 0 to `WIDTH` (which is 16) and sets the LED in row **2** at that coordinate to Red. (Detailed explanation of a `for` loop [here](https://www.arduino.cc/reference/en/language/structure/control-structure/for/).)
 
+> **TIP!** You can automatically format your code indentations in the Arduino IDE with the keyboard shortcut `Ctrl-T` on Windows/Linux or `CMD + T` on Mac, or go to Edit > Auto Format.
+
 
 ### Turn on every LED
 

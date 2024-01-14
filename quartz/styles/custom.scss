@@ -8,9 +8,12 @@
   & > #quartz-body {
 
     & .sidebar {
-      padding: 0 2rem;
+      padding: 0 1.5rem;
+      padding-top: 2em;
+      margin-top: 0;
       @media all and (max-width: $fullPageWidth) {
         padding: 0;
+        margin-top: 2em;
       }
     }
 
@@ -39,4 +42,14 @@
 ul.overflow,
 ol.overflow {
   max-height: none;
+
+  &:after {
+    background: none;
+  }
+}
+
+.image-container img {
+  @media all and (max-width: $fullPageWidth) {
+    display: none;
+  }
 }

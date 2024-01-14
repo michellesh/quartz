@@ -1,5 +1,6 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import explorerStyle from "./styles/explorer.scss"
+import { pathToRoot } from "../util/path"
 
 // @ts-ignore
 import script from "./scripts/explorer.inline"
@@ -9,6 +10,7 @@ import { QuartzPluginData } from "../plugins/vfile"
 // Options interface defined in `ExplorerNode` to avoid circular dependency
 const defaultOptions = {
   title: "Explorer",
+  hideTitle: false,
   folderClickBehavior: "collapse",
   folderDefaultState: "collapsed",
   useSavedState: true,
@@ -77,9 +79,10 @@ export default ((userOpts?: Partial<Options>) => {
 
   function Explorer({ allFiles, displayClass, fileData }: QuartzComponentProps) {
     constructFileTree(allFiles)
+    const baseDir = pathToRoot(fileData.slug!)
     return (
       <div class={`explorer ${displayClass ?? ""}`}>
-        <button
+        {!opts.hideTitle && (<button
           type="button"
           id="explorer"
           data-behavior={opts.folderClickBehavior}
@@ -102,9 +105,10 @@ export default ((userOpts?: Partial<Options>) => {
           >
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
-        </button>
+        </button>)}
         <div id="explorer-content">
           <ul class="overflow" id="explorer-ul">
+            <li><a href={baseDir}>Start here</a></li>
             <ExplorerNode node={fileTree} opts={opts} fileData={fileData} />
             <li id="explorer-end" />
           </ul>

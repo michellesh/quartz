@@ -3,6 +3,7 @@ import * as Component from "./quartz/components"
 
 const Explorer = () => Component.Explorer({
   title: "All pages",
+  hideTitle: true,
   folderDefaultState: "open",
   sortFn: (a, b) => {
     const nameOrderMap: Record<string, number> = {
@@ -69,6 +70,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TableOfContents({ maxDepth: 6 }),
   ],
   left: [
+    Component.DesktopOnly(Component.Image()),
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),

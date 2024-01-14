@@ -2,7 +2,7 @@
 title: Welcome to the Rainbow Clock Guide
 ---
 
-![](static/rainbow-clock-photo.png)
+![](static/clock-with-computer.jpg)
 
 
 This LED Rainbow Clock starts out as a basic digital clock, but it's even more than that. This is a tool to learn how to program LEDs. This website you are on right now is a guide on how to upload your own code to this clock and light up the grid of pixels with your own patterns. The clock can either be used as a regular clock or as an educational tool.
