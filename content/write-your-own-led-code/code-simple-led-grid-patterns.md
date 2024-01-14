@@ -9,7 +9,7 @@ This page will walk you through how to code some basic LED patterns, starting wi
 
 ## Prerequisites
 
-- [Setup environment](Write-your-own-LED-code/1-Setup-environment) steps completed (ie. you can successfully upload code to an ESP32)
+- [Setup environment](write-your-own-led-code/setup-environment) steps completed (ie. you can successfully upload code to an ESP32)
   - Arduino IDE installed
   - ESP32 board added to Arduino IDE
   - FastLED library installed
@@ -64,7 +64,7 @@ Paste the above code into the Arduino IDE editor where you see the comment `// .
 
 This code sets a single pixel at the (x, y) coordinate (0, 0) to Red. `CRGB::Red` is one of many pre-defined colors in the FastLED library. [See the full list of FastLED predefined colors.](http://fastled.io/docs/struct_c_r_g_b.html)
 
-_NOTE_ If the pixel that turned on is not at the bottom left, you probably need to change the `START_PIXEL` variable towards the top of the file. (See [LED grid layout](https://github.com/michellesh/rainbow-clock/wiki/LED-grid-layout) for more details.)
+_NOTE_ If the pixel that turned on is not at the bottom left, you probably need to change the `START_PIXEL` variable towards the top of the file. (See [LED grid layout](about-the-rainbow-clock/3-led-grid-layout) for more details.)
 ```cpp
 #define START_PIXEL LEDGrid::TOP_LEFT // change to LEDGrid::BOTTOM_LEFT, or vice versa
 ```
@@ -214,7 +214,7 @@ The [Arduino built-in delay function](https://www.arduino.cc/reference/en/langua
 
 <img width="500" alt="make-scrolling-rainbow" src="static/make-scrolling-rainbow.gif" />
 
-(Going back to our original [loop structure](https://github.com/michellesh/rainbow-clock/wiki/Code-simple-LED-grid-patterns#loop-structure):)
+(Going back to our original [loop structure](#loop-structure):)
 
 ```cpp
 int sinBeat = beatsin8(30, 0, 255);   // 30 beats per minute, range 0-255
@@ -264,11 +264,11 @@ I believe the best way to learn programming is to try changing the code, running
 
 ## Troubleshooting & FAQ
 
-I've compiled a few issues on the [Troubleshooting & FAQ](https://github.com/michellesh/rainbow-clock/wiki/Troubleshooting-&-FAQ) page, and I'll add to that page over time as I collect feedback about issues users run into!
+I've compiled a few issues on the [Troubleshooting & FAQ](more/troubleshooting-faq) page, and I'll add to that page over time as I collect feedback about issues users run into!
 
 
 ## How to re-upload the original clock code
 
-If you've uploaded your own code to the Rainbow Clock and you want to go back to its original function as a clock, this page will walk you through how to upload the original clock code: [How to re-upload the original clock code](https://github.com/michellesh/rainbow-clock/wiki/How-to-re%E2%80%90upload-the-original-clock-code)
+If you've uploaded your own code to the Rainbow Clock and you want to go back to its original function as a clock, this page will walk you through how to upload the original clock code: [How to re-upload the original clock code](write-your-own-led-code/3-how-to-re-upload-the-original-clock-code)
 
 

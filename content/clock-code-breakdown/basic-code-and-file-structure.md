@@ -78,17 +78,17 @@ The [rainbow clock code](https://github.com/michellesh/rainbow-clock/tree/main/r
 | `.ino` file | Description |
 | ----------- | ----------- |
 | [rainbow-clock.ino](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/rainbow-clock.ino) | The main arduino file containing the `setup()` and `loop()` functions |
-| [button.ino](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/button.ino) | Button related functions. See the code breakdown on the [How the button code works](https://github.com/michellesh/rainbow-clock/wiki/How-the-button-code-works#buttonino) page. |
-| [eeprom.ino](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/eeprom.ino) | EEPROM related functions. See the code breakdown on the [How the clock code works](https://github.com/michellesh/rainbow-clock/wiki/How-the-clock-code-works#eeprom) page. |
-| [leds.ino](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/leds.ino) | LED related functions. See the code breakdown on the [How the LED code works](https://github.com/michellesh/rainbow-clock/wiki/How-the-LED-code-works#ledsino) page. |
+| [button.ino](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/button.ino) | Button related functions. See the code breakdown on the [How the button code works](clock-code-breakdown/4-how-the-button-code-works#buttonino) page. |
+| [eeprom.ino](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/eeprom.ino) | EEPROM related functions. See the code breakdown on the [How the clock code works](clock-code-breakdown/2-how-the-clock-code-works#eeprom) page. |
+| [leds.ino](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/leds.ino) | LED related functions. See the code breakdown on the [How the LED code works](clock-code-breakdown/3-how-the-led-code-works#ledsino) page. |
 
 ### `.h` files
 `.h` files are header files. In Arduino programming, header files contain definitions for a library, which contain `.cpp` and `.h` files. (See more about library file structure [here](https://docs.arduino.cc/learn/contributions/arduino-creating-library-guide).) These header files aren't libraries and don't follow that structure. I use them here to store class definitions and cohesive standalone chunks of code.
 
 | `.h` file | Description |
 | ----------- | ----------- |
-| [LEDGrid.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/LEDGrid.h) | `LEDGrid` class. See the code breakdown on the [How the LED code works](https://github.com/michellesh/rainbow-clock/wiki/How-the-LED-code-works#ledgridh-class) page. | 
-| [Clock.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/Clock.h) | `Clock` class. See the code breakdown on the [How the clock code works](https://github.com/michellesh/rainbow-clock/wiki/How-the-clock-code-works#clock-class) page. | 
-| [Button.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/Button.h) | `Button` class. See the code breakdown on the [How the button code works](https://github.com/michellesh/rainbow-clock/wiki/How-the-button-code-works#buttonh-class) page. | 
-| [Digit.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/Digit.h) | `Digit` struct and definitions of digits 0-9. See the code breakdown on the [How the LED code works](https://github.com/michellesh/rainbow-clock/wiki/How-the-LED-code-works#digith) page. | 
-| [Timer.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/Timer.h) | `Timer` struct. See the code breakdown on the [How the button code works](https://github.com/michellesh/rainbow-clock/wiki/How-the-button-code-works#timerh) page. | 
+| [LEDGrid.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/LEDGrid.h) | `LEDGrid` class. See the code breakdown on the [How the LED code works](clock-code-breakdown/3-how-the-led-code-works#ledgridh-class) page. | 
+| [Clock.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/Clock.h) | `Clock` class. See the code breakdown on the [How the clock code works](clock-code-breakdown/2-how-the-clock-code-works#clock-class) page. | 
+| [Button.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/Button.h) | `Button` class. See the code breakdown on the [How the button code works](clock-code-breakdown/4-how-the-button-code-works#buttonh-class) page. | 
+| [Digit.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/Digit.h) | `Digit` struct and definitions of digits 0-9. See the code breakdown on the [How the LED code works](clock-code-breakdown/3-how-the-led-code-works#digith) page. | 
+| [Timer.h](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/Timer.h) | `Timer` struct. See the code breakdown on the [How the button code works](clock-code-breakdown/4-how-the-button-code-works#timerh) page. | 

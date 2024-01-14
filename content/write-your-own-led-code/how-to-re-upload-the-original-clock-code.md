@@ -17,7 +17,7 @@ If you've uploaded your own code to the Rainbow Clock and you want to go back to
 
 3. Unzip and open the folder called `rainbow-clock-main`
 
-4. Open the file `rainbow-clock/rainbow-clock.ino` in the Arduino IDE. If you don't have the Arduino IDE installed, you'll need to follow at least the first three steps on the [Setup environment](https://github.com/michellesh/rainbow-clock/wiki/Setup-environment) page to install the Arduino IDE, add the ESP32 board within the IDE, and install the libraries FastLED and ESP32Time.
+4. Open the file `rainbow-clock/rainbow-clock.ino` in the Arduino IDE. If you don't have the Arduino IDE installed, you'll need to follow at least the first three steps on the [Setup environment](write-your-own-led-code/1-setup-environment) page to install the Arduino IDE, add the ESP32 board within the IDE, and install the libraries FastLED and ESP32Time.
   
 5. Make sure you set the right `START_PIXEL` set according to if your grid's starting pixel is on the bottom left or top left. You can open your clock to check this, or you can just try one and see if the numbers are displayed upside down!
 

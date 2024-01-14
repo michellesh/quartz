@@ -20,7 +20,7 @@ sortPosition: 2
 ### Wiring Diagram
 
 <p align="center">
-  <img alt="schematic" src="https://github.com/michellesh/led-grid-box/assets/1425027/def6b8c2-7e93-416e-8a42-7f4642b5c94f"/>
+  <img alt="schematic" src="static/wiring-diagram.jpeg"/>
 </p>
 
 | ESP32 | Button | LED Grid                  |

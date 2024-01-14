@@ -12,9 +12,9 @@ This guide walks you through step-by-step how to download the necessary software
 
 ### Where to buy a clock
 
-The clock is available to buy on [my Etsy shop](https://www.etsy.com/listing/1656722711/learn-to-code-leds-led-rainbow-clock).
+The clock is available to buy on either [my online store](https://mickymakes.square.site/product/rainbow-clock/3) or [my Etsy shop](https://www.etsy.com/listing/1656722711/learn-to-code-leds-led-rainbow-clock).
 
 
 ### Where to begin
 
-The sidebar lists all the pages in this guide. If you want to understand more about how the clock is built, check out the pages in the "About the Rainbow Clock" section. If you're ready to start coding, dive into [Setup environment](write-your-own-led-code/1-setup-environment).
+The sidebar lists all the pages in this guide. If you want to understand more about how the clock is built, check out the pages in the "About the Rainbow Clock" section. If you're ready to start coding, dive into [Setup environment](write-your-own-led-code/setup-environment).

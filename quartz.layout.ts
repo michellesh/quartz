@@ -7,15 +7,24 @@ const Explorer = () => Component.Explorer({
   sortFn: (a, b) => {
     const nameOrderMap: Record<string, number> = {
       "about-the-rainbow-clock": 100,
-      "how-to-set-the-time": 101,
-      "hardware-breakdown": 102,
-      "led-grid-layout": 103,
+      "about-the-rainbow-clock/how-to-set-the-time": 101,
+      "about-the-rainbow-clock/hardware-breakdown": 102,
+      "about-the-rainbow-clock/led-grid-layout": 103,
 
       "write-your-own-led-code": 200,
+      "write-your-own-led-code/setup-environment": 201,
+      "write-your-own-led-code/code-simple-led-grid-patterns": 202,
+      "write-your-own-led-code/how-to-re-upload-the-original-clock-code": 203,
 
       "clock-code-breakdown": 300,
+      "clock-code-breakdown/basic-code-and-file-structure": 301,
+      "clock-code-breakdown/how-the-clock-code-works": 302,
+      "clock-code-breakdown/how-the-led-code-works": 303,
+      "clock-code-breakdown/how-the-button-code-works": 304,
 
       "more": 400,
+      "more/other-resources": 401,
+      "more/troubleshooting-faq": 402,
     }
 
     let orderA = 0
@@ -43,6 +52,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
+      "Made by Micky": "https://mickymakes.art",
       "Rainbow Clock GitHub": "https://github.com/michellesh/rainbow-clock",
     },
   }),

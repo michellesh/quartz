@@ -29,7 +29,7 @@ There are tons of articles, forum posts, and videos out there about Arduino code
 
 ### Pixels are flipped upside down or backwards
 
-- If you are using the clock code in this repository, you might need to change the `START_PIXEL` variable from `LEDGrid::TOP_LEFT` to `LEDGrid::BOTTOM_LEFT` or vice versa. See [LED grid layout](https://github.com/michellesh/rainbow-clock/wiki/LED-grid-layout) for more details.
+- If you are using the clock code in this repository, you might need to change the `START_PIXEL` variable from `LEDGrid::TOP_LEFT` to `LEDGrid::BOTTOM_LEFT` or vice versa. See [LED grid layout](about-the-rainbow-clock/led-grid-layout) for more details.
 - You may need to open the clock and physically rotate the LED Grid. The start pixel should be on the top left or bottom left of the clock as you are looking at the front of the grid. 
 
 
@@ -37,4 +37,4 @@ There are tons of articles, forum posts, and videos out there about Arduino code
 
 ### What programming language does Arduino use?
 
-Arduino is its own programming language based on C and C++. The Arduino language has its own built-in functions that are specific to hardware coding like `delay()`, `pinMode()` ([see a full list of built-in functions](https://www.arduino.cc/reference/en/)) and Arduino programs must follow a specific code structure with two functions: `setup()` (which runs once at the beginning) and `loop()` (which runs over and over forever). For more details about the code structure visit this page: [Basic code and file structure](https://github.com/michellesh/rainbow-clock/wiki/Basic-code-and-file-structure)
+Arduino is its own programming language based on C and C++. The Arduino language has its own built-in functions that are specific to hardware coding like `delay()`, `pinMode()` ([see a full list of built-in functions](https://www.arduino.cc/reference/en/)) and Arduino programs must follow a specific code structure with two functions: `setup()` (which runs once at the beginning) and `loop()` (which runs over and over forever). For more details about the code structure visit this page: [Basic code and file structure](clock-code-breakdown/basic-code-and-file-structure)
