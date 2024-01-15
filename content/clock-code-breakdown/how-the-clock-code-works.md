@@ -43,7 +43,7 @@ void loop() {
 ## Clock class
 This class stores the hour, minute, and second values, converts them into individual digits, and contains the functionality for editing the time and flashing the digits.
 
-#### Define global variables
+### Define global variables
 Start by defining global variables. These define all the modes, which track if we're editing the clock, and which digit we're editing.
 ```cpp
 // Modes
@@ -112,7 +112,7 @@ int _get12hour(int hour24) {
   return hour12 == 0 ? 12 : hour12;
 }
 ```
-**Why not just store 12-hour time and not worry about 24-hour time?** The code felt cleaner to store 24 hour time behind the scenes, and then convert to 12-hour time right before displaying digits on the clock. The main reason for this is if someone wanted to change their clock to show 24-hour time, they would have to figure out a few different places in code where 12-hour time is assumed across a couple different files. This way, the only thing they'd have to change is remove wherever `_get12hour` is called, which is very straightforward to figure out.
+**Why not just store 12-hour time and not worry about 24-hour time?** The code felt cleaner to store 24 hour time behind the scenes, and then convert to 12-hour time right before displaying digits on the clock. The main reason for this is if someone wanted to change their clock to show 24-hour time, they would have to figure out a few different places in code where 12-hour time is assumed across a couple different files. This way, the only thing they'd have to change is remove wherever `_get12hour` is called, which is more straightforward to figure out.
 
 ### Get and set time values
 This function `updateTimeFromRTC()` is called in the main `loop()` function. It collects the hour minute and second from the RTC module and stores them on this `Clock` class. It only does this in `SHOW_TIME` mode, so that the minute doesn't change while you're editing the time.

@@ -3,6 +3,8 @@ title: Hardware breakdown
 ---
 
 
+The clock itself is 3D printed, has an on/off switch on the back, and also has a button on the back for manually setting the time. The back panel of the clock hinges open to reveal a programmable ESP32 microcontroller and a 5x16 grid of LEDs. A data-sync capable microUSB cable is included.
+
 ![clock_hardware](static/wiring-photo.jpeg)
 
 

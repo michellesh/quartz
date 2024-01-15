@@ -24,7 +24,7 @@ void loop() {
 
 ### `setup()`
 
-The `setup()` function runs once when you press reset or power the board. Some examples of things you might put in here are:
+The `setup()` function runs **once** when you press reset or power the board. Some examples of things you might put in here are:
 - initialize a data pin with an LED
 - initialize a data pin with a button
 - initialize an array of LEDs with the FastLED library
@@ -32,7 +32,7 @@ The `setup()` function runs once when you press reset or power the board. Some e
 
 ### `loop()`
 
-The `loop()` function runs over and over again forever. Some examples of things you might put in here are:
+The `loop()` function runs **over and over** again forever. Some examples of things you might put in here are:
 - read the state of a button
 - set basic LEDs to on or off
 - set addressable LED pixels to a color
