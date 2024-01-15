@@ -7,6 +7,7 @@ import Darkmode from "./Darkmode"
 import Head from "./Head"
 import PageTitle from "./PageTitle"
 import Image from "./Image"
+import PrinterFriendlyLink from "./PrinterFriendlyLink"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
@@ -30,6 +31,7 @@ export {
   Head,
   PageTitle,
   Image,
+  PrinterFriendlyLink,
   ContentMeta,
   Spacer,
   TableOfContents,

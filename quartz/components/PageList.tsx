@@ -3,6 +3,7 @@ import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
 import { QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
+import { sortFn } from "../../functions.ts"
 
 export function byDateAndAlphabetical(
   cfg: GlobalConfiguration,
@@ -30,7 +31,7 @@ type Props = {
 } & QuartzComponentProps
 
 export function PageList({ cfg, fileData, allFiles, limit }: Props) {
-  let list = allFiles.sort(byDateAndAlphabetical(cfg))
+  let list = allFiles.sort(sortFn)
   if (limit) {
     list = list.slice(0, limit)
   }

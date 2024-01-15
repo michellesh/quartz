@@ -30,5 +30,5 @@ title: Hardware breakdown
 | D13   |        | Data                      |
 | D15   | pin 2  |                           |
 
-_NOTE_  
-The on/off switch only turns off power to the LEDs, not the whole system. So if you turn the switch off and leave the USB cable plugged in, the ESP32 board will still be powered, and it will still keep accurate time.
+> [!info] NOTE
+> The on/off switch only turns off power to the LEDs, not the whole system. So if you turn the switch off and leave the USB cable plugged in, the ESP32 board will still be powered, and it will still keep accurate time.
