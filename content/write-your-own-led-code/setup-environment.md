@@ -3,7 +3,7 @@ title: Setup environment
 ---
 
 
-In order to upload your own LED code to the Rainbow Clock, you'll need to install some software. This page will walk you through installing and setting up the software needed.
+In order to upload your own LED code to the Rainbow Clock, you'll need to install the Arduino IDE. This page will walk you through setting up the Arduino IDE to be ready to upload code to the rainbow clock.
 
 
 ## 1. Download and install the Arduino IDE
@@ -11,7 +11,7 @@ In order to upload your own LED code to the Rainbow Clock, you'll need to instal
 Arduino IDE has two versions, Arduino IDE 2 and Legacy IDE (1.8.X). I recommend the newer version because it's nicer and fancier! But the newer one does have operating system requirements, so the old version is great too if your operating system is too outdated for the new one.
  
 - [Arduino IDE 2 software download page](https://www.arduino.cc/en/software#future-version-of-the-arduino-ide) (recommended!)
-  - Also if you want: [Arduino's step-by-step guide on downloading and installing Arduino IDE 2!](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+  - Also if you you'd like, [Arduino has a guide on downloading and installing Arduino IDE 2](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
 - [Legacy IDE (1.8.X) software download page](https://www.arduino.cc/en/software#legacy-ide-18x)
 
 Once you have the Arduino IDE installed, start it, and it should look like this:
@@ -154,11 +154,13 @@ Verify that the code is running on the Rainbow Clock's ESP32 by opening the Seri
 
 <img width="800" src="static/open-serial-monitor.png">
 
-(If you see text but it's random characters/jargon, make sure you select "9600 baud" on the bottom right of the serial monitor. 9600 should be the default.)
+The serial monitor shows up at the bottom below the code editor:
 
 <img width="800" src="static/hello-world-output.png" />
 
 If you see "hello world!" printing every 1 second in your Serial monitor, it's working! YOU DID IT! :) It might not be obvious, but this "hello world" code is running on your Rainbow Clock's ESP32. 
+
+(If you see text but it's random characters/jargon, make sure you select "9600 baud" on the bottom right of the serial monitor. 9600 should be the default.)
 
 Now that you know how to upload code to the Rainbow Clock, you can start writing your more fun LED code!
 

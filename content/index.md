@@ -2,11 +2,13 @@
 title: Welcome to the Rainbow Clock Guide
 ---
 
+Hello! Welcome to the Rainbow Clock guide!
+
+The Rainbow Clock is simply a digital clock with rainbow digits, but it's also more than that. This is a tool for learning how to program LEDs. This website you are on right now is a guide on how to upload your own code to this clock and light up the grid of pixels with your own patterns. The clock can either be used as a regular clock or as an educational tool.
+
 ![](static/clock-with-computer.jpg)
 
-This LED Rainbow Clock starts out as a basic digital clock, but it's even more than that. This is a tool to learn how to program LEDs. This website you are on right now is a guide on how to upload your own code to this clock and light up the grid of pixels with your own patterns. The clock can either be used as a regular clock or as an educational tool.
-
-This guide walks you through step-by-step how to download the necessary software onto your computer, how to upload code to the clock, and how to code several basic pixel patterns and animations. The guide also contains a breakdown of all the code that runs the clock functionality: how the time is tracked, how a button press is captured, how the time is set using the button, how the pixels light up in a rainbow, etc. If you upload your own code to the clock, the guide contains a section on how to re-upload the original clock code.
+This guide walks you through step-by-step how to download the necessary software onto your computer, how to upload code to the clock, and how to code several basic pixel patterns and animations. The guide also contains a breakdown of all the code that runs the clock functionality: how the time is tracked, how a button press is captured, how the time is set using the button, how the pixels light up in a rainbow, etc. If you've uploaded your own code to the clock and want to go back to using it as a clock, the guide also contains a section on how to re-upload the original clock code.
 
 
 ### Where to buy a clock
