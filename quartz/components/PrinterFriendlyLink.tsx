@@ -9,9 +9,11 @@ const DownloadPDF = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const printerIconPath = joinSegments(baseDir, "static/printer-icon.png")
 
   return (
-    <div class={`download-link-container ${displayClass ?? ""}`}>
-      <img class="download-icon" src={printerIconPath} />
-      <a href="/printer-friendly-version">Printer friendly version of this guide</a>
+    <div class={displayClass ?? ""}>
+      <div class="download-link-container">
+        <img class="download-icon" src={printerIconPath} />
+        <a href="/printer-friendly-version">Printer friendly version of this guide</a>
+      </div>
     </div>
   )
 }
