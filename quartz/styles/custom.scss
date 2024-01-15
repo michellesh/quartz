@@ -48,12 +48,6 @@ ol.overflow {
   }
 }
 
-.image-container img {
-  @media all and (max-width: $fullPageWidth) {
-    display: none;
-  }
-}
-
 blockquote.transclude {
   border-left: none;
   padding-left: 0;

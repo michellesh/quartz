@@ -9,7 +9,7 @@ const Image = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const imagePath = joinSegments(baseDir, "static/rainbow-clock-photo.png")
 
   return (
-    <div class="image-container">
+    <div class={`image-container ${displayClass ?? ""}`}>
       <img src={imagePath} />
     </div>
   )
