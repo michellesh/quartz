@@ -58,7 +58,7 @@ blockquote.transclude {
 }
 
 #feedback-form {
-  input, textarea {
+  & input, & textarea {
     width: 100%;
     border-radius: 5px;
     background: var(--lightgray);
@@ -76,11 +76,11 @@ blockquote.transclude {
     }
   }
 
-  textarea {
+  & textarea {
     height: 100px;
   }
 
-  button {
+  & button {
     font-family: var(--bodyFont);
     font-size: 1.1em;
     padding: 0.5rem 1rem;
