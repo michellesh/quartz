@@ -31,6 +31,7 @@ export const sortFn: Options["sortFn"] = (a, b) => {
     "more": 400,
     "more/other-resources": 401,
     "more/troubleshooting-faq": 402,
+    "more/feedback": 403,
   }
 
   let orderA = 0

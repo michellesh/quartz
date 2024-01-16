@@ -39,6 +39,10 @@
   }
 }
 
+.explorer {
+  margin-bottom: 1rem;
+}
+
 ul.overflow,
 ol.overflow {
   max-height: none;
@@ -51,4 +55,63 @@ ol.overflow {
 blockquote.transclude {
   border-left: none;
   padding-left: 0;
+}
+
+#feedback-form {
+  input, textarea {
+    width: 100%;
+    border-radius: 5px;
+    background: var(--lightgray);
+    margin-bottom: 2em;
+
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    font-family: var(--bodyFont);
+    color: var(--dark);
+    font-size: 1.1em;
+    border: 1px solid var(--lightgray);
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  button {
+    font-family: var(--bodyFont);
+    font-size: 1.1em;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    color: var(--light);
+    border-color: var(--dark);
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 5px;
+    opacity: 0.8;
+    transition: 0.2s;
+
+    &[disabled] {
+      background-color: var(--lightgray);
+      &:hover {
+        cursor: not-allowed;
+      }
+    }
+
+    & > svg {
+      fill: var(--light);
+      filter: contrast(0.3);
+    }
+
+    &:hover {
+      cursor: pointer;
+      border-color: var(--secondary);
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
 }

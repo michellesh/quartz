@@ -63,7 +63,7 @@ leds(0, 0) = CRGB::Red;
 ```
 Paste the above code into the Arduino IDE editor where you see the comment `// ... code here ...`. (It doesn't matter if the tabs/spacing is messed up, but if you want it to look pretty, you can press `ctrl-t` on Windows or `cmd-t` on Mac to auto-format.) Then click the upload icon!
 
-This code sets a single pixel at the (x, y) coordinate (0, 0) to Red. `CRGB::Red` is one of many pre-defined colors in the FastLED library. [See the full list of FastLED predefined colors.](http://fastled.io/docs/struct_c_r_g_b.html)
+This code sets a single pixel at the (x, y) coordinate (0, 0) to Red. `CRGB::Red` is one of many pre-defined colors in the FastLED library. [See the full list of FastLED predefined colors.](http://fastled.io/docs/struct_c_r_g_b.html) Try changing `CRGB::Red` to `CRGB::Blue` or `CRGB::Green`!
 
 > [!info] NOTE
 > If the pixel that turned on is not at the bottom left, you probably need to change the `START_PIXEL` variable towards the top of the file.
@@ -81,7 +81,7 @@ This code sets a single pixel at the (x, y) coordinate (0, 0) to Red. `CRGB::Red
 ???
 ```
 
-Now you know how to turn on a single LED at an (x, y) coordinate. Can you make the pattern in the image above? Solution [here](https://github.com/michellesh/rainbow-clock/blob/main/examples/challenge-solution.ino).
+Now you know how to turn on a single LED at an (x, y) coordinate. Can you make the pattern in the image above? Solution [here](https://github.com/michellesh/rainbow-clock/blob/main/challenge-solution.ino).
 
 
 ### Turn on a row of LEDs
