@@ -70,7 +70,7 @@ These variables define how fast the colon flashes, and how fast the digits flash
 ```
 
 ### Define private and public clock class variables
-Private variables cannot be accessed outside of this class. We store things here that either don't need to be called elsewhere, or that we specifically don't want to be called elsewhere so we can control what they get set to. I like to name private variables with a `_` prefix to remind me they're private variables while I'm writing code.
+Private variables cannot be accessed outside of this class. We store things here that either don't need to be called elsewhere, or that we specifically don't want to be called elsewhere so we can control what they get set to. Private variables often have a `_` prefix, which serves as a reminder that they're private variables while writing code.
 ```cpp
 // This class stores all clock-related data, and functions to access the
 // individual digits and whether they are visible.

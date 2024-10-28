@@ -3,7 +3,7 @@ title: How to set the time
 ---
 
 
-There is a button on the back of the clock.
+Locate the button on the back of the clock.
 
 **Long press** the button for 2 seconds. Let go when the hours digit starts flashing.
 

@@ -82,7 +82,7 @@ The [rainbow clock code](https://github.com/michellesh/rainbow-clock/tree/main/r
 | [leds.ino](https://github.com/michellesh/rainbow-clock/blob/main/rainbow-clock/leds.ino) | LED related functions. See the code breakdown on the [How the LED code works](clock-code-breakdown/how-the-led-code-works#ledsino) page. |
 
 ### `.h` files
-`.h` files are header files. In Arduino programming, header files contain definitions for a library, which contain `.cpp` and `.h` files. (See more about library file structure [here](https://docs.arduino.cc/learn/contributions/arduino-creating-library-guide).) These header files aren't libraries and don't follow that structure. I use them here to store class definitions and cohesive standalone chunks of code.
+`.h` files are header files. In Arduino programming, header files contain definitions for a library, which contain `.cpp` and `.h` files. (See more about library file structure [here](https://docs.arduino.cc/learn/contributions/arduino-creating-library-guide).) The Rainbow Clock header files break this rule! They are used to store class definitions and cohesive standalone chunks of code instead of following the traditional library structure.
 
 | `.h` file | Description |
 | ----------- | ----------- |

@@ -8,13 +8,13 @@ In order to upload your own LED code to the Rainbow Clock, you'll need to instal
 
 ## 1. Download and install the Arduino IDE
 
-Arduino IDE has two versions, Arduino IDE 2 and Legacy IDE (1.8.X). I recommend the newer version because it's nicer and fancier! But the newer one does have operating system requirements, so the old version is great too if your operating system is too outdated for the new one.
+There are two versions of the Arduino IDE: the newer Arduino IDE 2 and the Legacy IDE (1.8.X). Arduino IDE 2 is recommended but has specific operating system requirements, so the Legacy IDE is a good alternative for older systems.
  
 - [Arduino IDE 2 software download page](https://www.arduino.cc/en/software#future-version-of-the-arduino-ide) (recommended!)
-  - Also if you you'd like, [Arduino has a guide on downloading and installing Arduino IDE 2](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+  - This page will not cover downloading and installing the software. Arduino has a guide for that [here](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing).
 - [Legacy IDE (1.8.X) software download page](https://www.arduino.cc/en/software#legacy-ide-18x)
 
-Once you have the Arduino IDE installed, start it, and it should look like this:
+Once you have the Arduino IDE installed, launch it, and it should look like this:
 
 <img width="800" src="static/download-and-install.png" />
 
@@ -26,7 +26,7 @@ You now have the Arduino IDE installed!
 
 Now that you have the Arduino IDE, you'll need to install the ESP32 board add-on within the IDE. (An ESP32 is a microprocessor just like an Arduino. The IDE comes ready to upload code to Arduino boards, but the ESP32 boards are special and need to be added separately.)
 
-The steps and screenshots below are copied directly from this guide: [Installing ESP32 Board in Arduino IDE 2](https://randomnerdtutorials.com/installing-esp32-arduino-ide-2-0/) except below I took all my own screenshots.
+(Disclaimer: The steps and screenshots below are based directly on this guide: [Installing ESP32 Board in Arduino IDE 2](https://randomnerdtutorials.com/installing-esp32-arduino-ide-2-0/), with all screenshots freshly taken for this content.)
 
 (If you have Legacy IDE 1.8.X, the steps are the exact same, but the screenshots won't quite match. Here's a guide specifically for Legacy IDE: [Installing ESP32 Board in Legacy Arduino IDE 1](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/))
 
@@ -67,7 +67,7 @@ On the left side, click the Boards Manager icon. (Or you can go to `Tools > Boar
 
 ### 2d. Search ESP32, Install
 
-Type "ESP32" in the search field. Locate **esp32** by Espressif Systems. Click Install. (This screenshot has a "Remove" button because I already installed it.)
+Type "ESP32" in the search field. Locate **esp32** by Espressif Systems. Click Install. (This screenshot has a "Remove" button because it is already installed in this case.)
 
 <img width="800" src="static/search-esp32.png" />
 
@@ -160,7 +160,7 @@ The serial monitor shows up at the bottom below the code editor:
 
 If you see "hello world!" printing every 1 second in your Serial monitor, it's working! YOU DID IT! :) It might not be obvious, but this "hello world" code is running on your Rainbow Clock's ESP32. 
 
-(If you see text but it's random characters/jargon, make sure you select "9600 baud" on the bottom right of the serial monitor. 9600 should be the default.)
+(If you see text but it's random characters/jargon, make sure you select "9600 baud" on the right side of the serial monitor. 9600 should be the default.)
 
 Now that you know how to upload code to the Rainbow Clock, you can start writing your more fun LED code!
 

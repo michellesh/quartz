@@ -266,7 +266,7 @@ I believe the best way to learn programming is to try changing the code, running
 
 ## Troubleshooting & FAQ
 
-I've compiled a few issues on the [Troubleshooting & FAQ](more/troubleshooting-faq) page, and I'll add to that page over time as I collect feedback about issues users run into!
+A few issues have been compiled on the [Troubleshooting & FAQ](more/troubleshooting-faq) page, which will be updated over time as feedback is collected on any additional issues users encounter.
 
 
 ## How to re-upload the original clock code
